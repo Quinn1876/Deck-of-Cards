@@ -3,7 +3,7 @@
 # @FileName 
 # @Project DeckOfCards
 # 
-# @LastUpdated Spe. 22, 2018
+# @LastUpdated Sep. 22, 2018
 ################################
 import card
 from card import Card, Deck
