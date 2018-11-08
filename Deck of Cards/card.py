@@ -11,8 +11,6 @@
 
 import random
 
-suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades']
-
 class Card:
     ####################################
     # This is for a Generic Playing card
@@ -80,7 +78,7 @@ class Deck:
         # Deck has a Dicard Pile
         #######################################
 
-        global suits 
+        suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades']
         
         self.cards = []
         self.discardPile = []
